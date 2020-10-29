@@ -62,4 +62,59 @@ const siteContent = {
   const button = document.querySelector('button')
   button.textContent = 'Get Started';
 
+  // Main Content
 
+  const features = document.querySelector('h4')
+  features.textContent = 'Features';
+
+  const featuresP = document.querySelector('p')
+  featuresP.textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+  
+  const about = document.querySelector('.top-content div:nth-child(2) h4');
+  about.textContent = 'About'
+  
+  const aboutP = document.querySelector('.top-content div:nth-child(2) p');
+  aboutP.textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+
+  const middleImg = document.querySelector('.middle-img')
+  middleImg.src = "img/mid-page-accent.jpg";
+
+  const services = document.querySelector('.bottom-content div:nth-child(1) h4')
+  services.textContent = 'Services'
+
+  const servicesP = document.querySelector('.bottom-content div:nth-child(1) p')
+  servicesP.textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+  
+  const product = document.querySelector('.bottom-content div:nth-child(2) h4')
+  product.textContent = 'Product'
+  
+  const productP = document.querySelector('.bottom-content div:nth-child(2) p')
+  productP.textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+ 
+  const vision = document.querySelector('.bottom-content div:nth-child(3) h4')
+  vision.textContent = 'Vision'
+
+  const visionP = document.querySelector('.bottom-content div:nth-child(3) p')
+  visionP.textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+  
+  //CONTACT
+
+  const contact = document.querySelector('.contact h4')
+  contact.textContent = 'Contact'
+
+  const contactAddress = document.querySelector('.contact p')
+  contactAddress.textContent = '123 Way 456 Street, Somewhere, USA'
+  
+  const phone = document.querySelector('.contact p:nth-child(3)')
+  phone.textContent = "1 (888) 888-8888"
+
+  const email = document.querySelector('.contact p:nth-child(4)')
+  email.textContent = "sales@greatidea.io"
+ 
+  //Footer
+
+  const copyright = document.querySelector('footer p')
+  copyright.textContent = "Copyright Great Idea! 2018"
+
+
+  

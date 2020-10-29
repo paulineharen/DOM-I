@@ -47,8 +47,28 @@ const siteContent = {
   navItems[4].textContent = "About";
   navItems[5].textContent = "Contact";
 
-  const logo = document.querySelector('.logo');
+  navItems.forEach(navColor => {
+    navColor.style.color = 'green'
+  })
+
+  const nav1 = document.createElement('Nav1');
+  nav1.textContent = 'Nav 1'
+  nav1.style.color = 'green'
+
+  const parentElement = document.querySelector("nav")
+  parentElement.prepend(nav1)
+
+  const nav2 = document.createElement('Nav2');
+  nav2.textContent = 'Nav 2'
+  nav2.style.color = 'green'
+
+  const parentElement1 = document.querySelector("nav")
+  parentElement1.append(nav2)
+
+  const logo = document.querySelector('#logo-img');
   logo.src = "img/logo.png"
+
+
 
   //CTA
 
@@ -76,7 +96,7 @@ const siteContent = {
   const aboutP = document.querySelector('.top-content div:nth-child(2) p');
   aboutP.textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
 
-  const middleImg = document.querySelector('.middle-img')
+  const middleImg = document.querySelector('#middle-img')
   middleImg.src = "img/mid-page-accent.jpg";
 
   const services = document.querySelector('.bottom-content div:nth-child(1) h4')
